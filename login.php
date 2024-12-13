@@ -22,7 +22,7 @@ header("location:index.php?page=home");
 <body class="hold-transition login-page">
 <div class="login-box">
   <div class="login-logo">
-    <a href="#"><b>welcome to <?php echo $_SESSION['system']['name'] ?> - Login</b></a>
+    <a href="#"><b><?php echo $_SESSION['system']['name'] ?> - Login</b></a>
   </div>
   <!-- /.login-logo -->
   <div class="card">
